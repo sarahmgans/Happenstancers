@@ -42,12 +42,13 @@ img {
 header {
   background-color: white;
   height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .headerImage {
   width: 55%;
   margin: 0 auto;
-  height: 100vh;
 }
 
 /* Section one */
@@ -55,10 +56,11 @@ header {
 section.sectionOne {
   background-color: white;
   height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .sectionOneImage {
   width: 55%;
   margin: 0 auto;
-  height: 100vh;
 }
