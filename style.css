@@ -43,12 +43,61 @@ header {
   background-color: white;
   height: 100vh;
   display: flex;
-  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
 .headerImage {
-  width: 55%;
+  width: 45%;
   margin: 0 auto;
+}
+
+header i.fas {
+  color: black;
+  font-size: 55px;
+  transition: 0.3s;
+  margin-bottom: 30px;
+}
+.chev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide {
+	-webkit-animation: slide 3s infinite;
+	animation: slide 3s infinite;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    -webkit-transform: translate(0, -15px);
+    transform: translate(0, -15px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translate(0, 15px);
+    transform: translate(0, 15px);
+    opacity: 0;
+  }
+}
+
+@keyframes slide {
+  0% {
+    -webkit-transform: translate(0, -15px);
+    transform: translate(0, -15px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translate(0, 15px);
+    transform: translate(0, 15px);
+    opacity: 0;
+  }
 }
 
 /* Section one */
