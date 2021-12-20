@@ -1,44 +1,8 @@
 section.work{
   height: 100vh;
   background-color: $lightColor;
-  padding-bottom: 105px;
   .bodyLine {
     margin-bottom: 100px;
-  }
-  h3 {
-    font-family: 'Source Sans Pro';
-    color: $darkColor;
-    font-size: 23px;
-    margin-top: 0px;
-  }
-  .poem {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .title {
-    font-style: italic;
-  }
-  .buy {
-    padding-top: 60px;
-    text-align: center;
-    p {
-      margin-top: 0;
-    }
-  }
-  a {
-    color: $accentColor;
-    font-family: 'Hamburg Hand Light';
-    border-bottom: 1px solid $accentColor;
-    width: 100px;
-    padding-bottom: 0px;
-    letter-spacing: 1px;
-    margin: 0 auto;
-    &:hover,
-    &:focus {
-      border-bottom: 1px solid transparent;
-      color: #EE6C4D;
-    }
   }
 }
 

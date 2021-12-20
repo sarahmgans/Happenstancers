@@ -317,7 +317,6 @@ p {
 }
 
 header {
-  background-attachment: fixed;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -386,7 +385,7 @@ nav ul li a:hover::after,
 nav ul li a.active::after,
 nav ul li a:active::after {
   content: '';
-  width: calc(100% - 6px);
+  width: calc(100% - 7px);
   display: block;
   height: 2px;
   background-color: white;
@@ -425,15 +424,6 @@ header i.fas {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   margin-bottom: 30px;
-}
-
-img {
-  width: 500px;
-  height: auto;
-}
-
-.landingPicture {
-  margin: 0 auto;
 }
 
 .chev {
@@ -535,7 +525,7 @@ img {
 .hamburger.is-active .hamburger-inner,
 .hamburger.is-active .hamburger-inner::before,
 .hamburger.is-active .hamburger-inner::after {
-  background-color: black;
+  background-color: red;
 }
 
 .hamburger-box {
@@ -543,7 +533,7 @@ img {
   height: 42px;
   display: inline-block;
   position: fixed;
-  background-image: url(../assets/backgroun.png);
+  background-color: black;
   width: 100%;
   top: 0;
   left: 0;
@@ -572,7 +562,7 @@ img {
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
   width: 30px;
   height: 2px;
-  background-color: white;
+  background-color: red;
   border-radius: 20px;
   position: absolute;
   -webkit-transition-property: -webkit-transform;
@@ -653,105 +643,28 @@ img {
 section.about {
   height: 100vh;
   background-color: white;
-  padding-bottom: 84px;
 }
 
 section.about .bodyLine {
   margin-bottom: 100px;
 }
 
-section.about p {
-  color: black;
-  margin-top: 0;
-}
-
-section.about .aboutParent {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-section.about .aboutParent div:nth-child(1) {
-  width: 50%;
-  padding-right: 20px;
-}
-
-section.about .picture img {
-  width: 310px;
-}
-
 section.events {
   height: 100vh;
   background-color: white;
-  padding-bottom: 50px;
 }
 
 section.events .bodyLine {
   margin-bottom: 100px;
 }
 
-section.events p {
-  text-align: center;
-}
-
 section.work {
   height: 100vh;
   background-color: white;
-  padding-bottom: 105px;
 }
 
 section.work .bodyLine {
   margin-bottom: 100px;
-}
-
-section.work h3 {
-  font-family: 'Source Sans Pro';
-  color: black;
-  font-size: 23px;
-  margin-top: 0px;
-}
-
-section.work .poem {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-section.work .title {
-  font-style: italic;
-}
-
-section.work .buy {
-  padding-top: 60px;
-  text-align: center;
-}
-
-section.work .buy p {
-  margin-top: 0;
-}
-
-section.work a {
-  color: black;
-  font-family: 'Hamburg Hand Light';
-  border-bottom: 1px solid black;
-  width: 100px;
-  padding-bottom: 0px;
-  letter-spacing: 1px;
-  margin: 0 auto;
-}
-
-section.work a:hover, section.work a:focus {
-  border-bottom: 1px solid transparent;
-  color: #EE6C4D;
 }
 
 section.contact {
@@ -1021,7 +934,7 @@ footer p {
     display: none;
   }
   nav ul li a.active {
-    color: black;
+    color: red;
   }
   nav ul li {
     border-bottom: 1px solid white;

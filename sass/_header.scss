@@ -1,5 +1,4 @@
 header {
-  background-attachment: fixed;
   height: 100vh;
   display: flex;
   width: 100vw;
@@ -46,7 +45,7 @@ nav ul li a:hover::after,
 nav ul li a.active::after,
 nav ul li a:active::after {
   content: '';
-  width: calc(100% - 6px);
+  width: calc(100% - 7px);
   display: block;
   height: 2px;
   background-color: $lightColor;
@@ -77,13 +76,6 @@ header i.fas {
   font-size: 55px;
   transition: 0.3s;
   margin-bottom: 30px;
-}
-img {
-  width: 500px;
-  height: auto;
-}
-.landingPicture {
-  margin: 0 auto;
 }
 .chev {
   display: flex;

@@ -40,14 +40,14 @@
 .hamburger.is-active .hamburger-inner,
 .hamburger.is-active .hamburger-inner::before,
 .hamburger.is-active .hamburger-inner::after {
-  background-color: $accentColor; 
+  background-color: red; 
 }
 .hamburger-box {
   width: 40px;
   height: 42px;
   display: inline-block;
   position: fixed; 
-  background-image: url(../assets/backgroun.png);
+  background-color: black;
   width: 100%;
   top: 0;
   left: 0;
@@ -69,7 +69,7 @@
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
   width: 30px;
   height: 2px;
-  background-color: $lightColor;
+  background-color: red;
   border-radius: 20px;
   position: absolute;
   transition-property: transform;

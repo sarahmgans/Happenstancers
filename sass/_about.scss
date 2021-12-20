@@ -1,26 +1,8 @@
 section.about{
   height: 100vh;
   background-color: $lightColor;
-  padding-bottom: 84px;
   .bodyLine {
     margin-bottom: 100px;
-  }
-  p {
-    color: $darkColor;
-    margin-top: 0;
-  }
-  .aboutParent {
-    display: flex;
-    justify-content: space-around;
-    div:nth-child(1) {
-      width: 50%;
-      padding-right: 20px;
-    }
-  }
-  .picture {
-    img{
-      width: 310px;
-    }
   }
 }
 
