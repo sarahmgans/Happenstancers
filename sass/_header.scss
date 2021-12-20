@@ -19,6 +19,8 @@ a {
   transition: 0.3s all ease-out; 
   padding-bottom: 3px;
   display: block;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 nav {
   display: flex;
@@ -29,7 +31,7 @@ nav ul li {
   font-family: $mainFont;
   color: $lightColor;
   margin: 25px 30px 25px 30px;
-  font-size: 18px;
+  font-size: 22px;
   letter-spacing: 1.5px;
   position: relative;
 }
@@ -44,7 +46,7 @@ nav ul li a:hover::after,
 nav ul li a.active::after,
 nav ul li a:active::after {
   content: '';
-  width: calc(100% - 8px);
+  width: calc(100% - 6px);
   display: block;
   height: 2px;
   background-color: $lightColor;

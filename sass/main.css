@@ -299,6 +299,7 @@ h2 {
   padding-top: 100px;
   padding-bottom: 30px;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 p {
@@ -349,6 +350,8 @@ a {
   transition: 0.3s all ease-out;
   padding-bottom: 3px;
   display: block;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 nav {
@@ -365,7 +368,7 @@ nav ul li {
   font-family: "Right Grotesk Tight";
   color: white;
   margin: 25px 30px 25px 30px;
-  font-size: 18px;
+  font-size: 22px;
   letter-spacing: 1.5px;
   position: relative;
 }
@@ -383,7 +386,7 @@ nav ul li a:hover::after,
 nav ul li a.active::after,
 nav ul li a:active::after {
   content: '';
-  width: calc(100% - 8px);
+  width: calc(100% - 6px);
   display: block;
   height: 2px;
   background-color: white;
@@ -834,10 +837,10 @@ section.contact .submit {
   background-color: black;
   padding: 13px 40px;
   border-radius: 20px;
-  font-family: 'Hamburg Hand Light';
-  font-size: 15px;
+  font-family: 'Right Grotesk Tight';
+  font-size: 18px;
   color: white;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   text-transform: uppercase;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -963,55 +966,15 @@ footer p {
   section.contact form {
     padding-top: 0;
   }
-  section.about .aboutParent {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  section.about .aboutParent div:nth-child(1) {
-    padding-right: 0;
-    width: 80%;
-  }
-  section.about .aboutParent img {
-    padding-bottom: 30px;
-    width: 310px;
-  }
-  section.about h3 {
-    text-align: center;
-  }
 }
 
 @media (max-width: 860px) {
-  h1 {
-    line-height: 1;
-  }
-  header i.fas {
-    margin-bottom: 90px;
-  }
-  .headerParent > div:nth-child(3) {
-    margin-top: 55px;
-  }
-  h2 {
-    padding-top: 75px;
-    font-size: 28px;
-    letter-spacing: 3px;
-  }
   section.contact .buttonParent {
     margin-bottom: 30px;
   }
   section.about .bodyLine,
   section.work .bodyLine {
     margin-bottom: 75px;
-  }
-  section.about {
-    padding-bottom: 57px;
-  }
-  section.work {
-    padding-bottom: 80px;
   }
   section.contact .formParent {
     margin-top: 15px;
@@ -1063,42 +1026,14 @@ footer p {
   nav ul li {
     border-bottom: 1px solid white;
   }
-  section.about .aboutParent div:nth-child(1) {
-    width: auto;
-  }
   section.contact form {
     width: 90%;
   }
 }
 
 @media (max-width: 610px) {
-  h1 {
-    font-size: 55px;
-    letter-spacing: 1px;
-  }
-  h2.header {
-    letter-spacing: 3px;
-    font-size: 23px;
-  }
-  h2 {
-    font-size: 27px;
-    letter-spacing: 2px;
-  }
   section.contact form {
     width: 90%;
-  }
-}
-
-@media (max-width: 470px) {
-  h1 {
-    font-size: 49px;
-  }
-  h2.header {
-    font-size: 22px;
-    letter-spacing: 2px;
-  }
-  h2 {
-    font-size: 26px;
   }
 }
 
@@ -1111,47 +1046,20 @@ footer p {
   .topBar {
     height: 43px;
   }
-  section.about .picture img {
-    width: 100%;
-    height: auto;
-  }
   section.contact form {
     width: 100%;
   }
 }
 
-@media (max-width: 414px) {
-  h1 {
-    font-size: 41px;
-  }
-  h2.header {
-    font-size: 19px;
-  }
-}
-
 @media (max-width: 375px) {
-  h2 {
-    font-size: 25px;
-  }
   header i.fas {
     font-size: 50px;
   }
 }
 
 @media (max-width: 350px) {
-  h1 {
-    font-size: 35px;
-    letter-spacing: 1px;
-  }
-  h2.header {
-    font-size: 18px;
-    letter-spacing: 1px;
-  }
   header i.fas {
     font-size: 45px;
-  }
-  h2 {
-    font-size: 24px;
   }
 }
 /*# sourceMappingURL=main.css.map */
