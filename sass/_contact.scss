@@ -33,16 +33,16 @@ section.contact {
         margin: 0;
       }
       &:focus {
-      border-bottom: 1px solid $accentColor;
-      box-shadow: 0 2px 0 0 $accentColor;
+      border-bottom: 1px solid $darkColor;
+      box-shadow: 0 2px 0 0 $darkColor;
       &:focus + label {
-      color: $accentColor;
+      color: $darkColor;
       }
     }
   }
   .submit {
     margin: 50px auto 50px auto;
-    background-color: $accentColor;
+    background-color: $darkColor;
     padding: 13px 40px;
     border-radius: 20px;
     font-family: 'Right Grotesk Tight';
@@ -75,10 +75,10 @@ section.contact {
       border-radius: 0px;
       background-color: transparent;
       &:focus {
-        border-bottom: 1px solid $accentColor;
-        box-shadow: 0 2px 0 0 $accentColor;
+        border-bottom: 1px solid $darkColor;
+        box-shadow: 0 2px 0 0 $darkColor;
       &:focus + label {
-        color: $accentColor;
+        color: $darkColor;
       }
     }
   }
