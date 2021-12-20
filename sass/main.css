@@ -285,7 +285,7 @@ ul {
 }
 
 h2 {
-  color: #59585F;
+  color: black;
   text-align: center;
   font-family: 'Hamburg Hand Regular';
   font-size: 30px;
@@ -298,13 +298,13 @@ h2 {
 
 p {
   font-family: 'Source Sans Pro';
-  color: #59585F;
+  color: black;
   font-size: 19px;
   line-height: 1.5;
 }
 
 .bodyLine {
-  border-top: 2px solid #49AB74;
+  border-top: 2px solid black;
   width: 70px;
   border-radius: 20px;
   margin: 0 auto;
@@ -358,7 +358,7 @@ nav {
 
 nav ul li {
   font-family: 'Hamburg Hand Light';
-  color: #59585F;
+  color: black;
   margin: 25px 30px 25px 30px;
   font-size: 18px;
   letter-spacing: 4px;
@@ -381,7 +381,7 @@ nav ul li a:active::after {
   width: calc(100% - 8px);
   display: block;
   height: 2px;
-  background-color: #EFEFF0;
+  background-color: white;
   position: absolute;
   bottom: 2px;
 }
@@ -525,7 +525,7 @@ img {
 .hamburger.is-active .hamburger-inner,
 .hamburger.is-active .hamburger-inner::before,
 .hamburger.is-active .hamburger-inner::after {
-  background-color: #49AB74;
+  background-color: black;
 }
 
 .hamburger-box {
@@ -562,7 +562,7 @@ img {
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
   width: 30px;
   height: 2px;
-  background-color: #EFEFF0;
+  background-color: white;
   border-radius: 20px;
   position: absolute;
   -webkit-transition-property: -webkit-transform;
@@ -642,7 +642,7 @@ img {
 
 section.about {
   height: auto;
-  background-color: #EFEFF0;
+  background-color: white;
   padding-bottom: 84px;
 }
 
@@ -651,7 +651,7 @@ section.about .bodyLine {
 }
 
 section.about p {
-  color: #59585F;
+  color: black;
   margin-top: 0;
 }
 
@@ -674,7 +674,7 @@ section.about .picture img {
 
 section.events {
   height: 100vh;
-  background-color: #EFEFF0;
+  background-color: white;
   padding-bottom: 50px;
 }
 
@@ -688,7 +688,7 @@ section.events p {
 
 section.work {
   height: auto;
-  background-color: #E2F3E9;
+  background-color: white;
   padding-bottom: 105px;
 }
 
@@ -698,7 +698,7 @@ section.work .bodyLine {
 
 section.work h3 {
   font-family: 'Source Sans Pro';
-  color: #59585F;
+  color: black;
   font-size: 23px;
   margin-top: 0px;
 }
@@ -730,9 +730,9 @@ section.work .buy p {
 }
 
 section.work a {
-  color: #49AB74;
+  color: black;
   font-family: 'Hamburg Hand Light';
-  border-bottom: 1px solid #49AB74;
+  border-bottom: 1px solid black;
   width: 100px;
   padding-bottom: 0px;
   letter-spacing: 1px;
@@ -746,7 +746,7 @@ section.work a:hover, section.work a:focus {
 
 section.contact {
   height: auto;
-  background-color: #E2F3E9;
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -778,10 +778,10 @@ section.contact textarea {
   border-radius: 0px;
   width: 100%;
   border: none;
-  border-bottom: 1px solid #59585F;
+  border-bottom: 1px solid black;
   font-family: 'Source Sans Pro';
   font-size: 18px;
-  color: #59585F;
+  color: black;
   border-radius: 0px;
   background-color: transparent;
   -webkit-box-shadow: 0 2px 0 0 transparent;
@@ -789,47 +789,47 @@ section.contact textarea {
 }
 
 section.contact textarea::-webkit-input-placeholder {
-  color: #59585F;
+  color: black;
   padding: 0;
   margin: 0;
 }
 
 section.contact textarea:-ms-input-placeholder {
-  color: #59585F;
+  color: black;
   padding: 0;
   margin: 0;
 }
 
 section.contact textarea::-ms-input-placeholder {
-  color: #59585F;
+  color: black;
   padding: 0;
   margin: 0;
 }
 
 section.contact textarea::placeholder {
-  color: #59585F;
+  color: black;
   padding: 0;
   margin: 0;
 }
 
 section.contact textarea:focus {
-  border-bottom: 1px solid #49AB74;
-  -webkit-box-shadow: 0 2px 0 0 #49AB74;
-          box-shadow: 0 2px 0 0 #49AB74;
+  border-bottom: 1px solid black;
+  -webkit-box-shadow: 0 2px 0 0 black;
+          box-shadow: 0 2px 0 0 black;
 }
 
 section.contact textarea:focus:focus + label {
-  color: #49AB74;
+  color: black;
 }
 
 section.contact .submit {
   margin: 50px auto 50px auto;
-  background-color: #49AB74;
+  background-color: black;
   padding: 13px 40px;
   border-radius: 20px;
   font-family: 'Hamburg Hand Light';
   font-size: 15px;
-  color: #EFEFF0;
+  color: white;
   letter-spacing: 2px;
   text-transform: uppercase;
   -webkit-transition: 0.3s;
@@ -840,13 +840,13 @@ section.contact .submit {
 }
 
 section.contact .submit:hover, section.contact .submit:focus {
-  background-color: #59585F;
+  background-color: black;
 }
 
 section.contact .half input[type="text"],
 section.contact .half input[type="email"] {
   border: none;
-  border-bottom: 1px solid #59585F;
+  border-bottom: 1px solid black;
   -webkit-box-shadow: 0 2px 0 0 transparent;
           box-shadow: 0 2px 0 0 transparent;
   width: 100%;
@@ -854,7 +854,7 @@ section.contact .half input[type="email"] {
   font-family: 'Source Sans Pro';
   font-size: 18px;
   padding-bottom: 5px;
-  color: #59585F;
+  color: black;
   -webkit-appearance: none;
   border-radius: 0px;
   background-color: transparent;
@@ -862,14 +862,14 @@ section.contact .half input[type="email"] {
 
 section.contact .half input[type="text"]:focus,
 section.contact .half input[type="email"]:focus {
-  border-bottom: 1px solid #49AB74;
-  -webkit-box-shadow: 0 2px 0 0 #49AB74;
-          box-shadow: 0 2px 0 0 #49AB74;
+  border-bottom: 1px solid black;
+  -webkit-box-shadow: 0 2px 0 0 black;
+          box-shadow: 0 2px 0 0 black;
 }
 
 section.contact .half input[type="text"]:focus:focus + label,
 section.contact .half input[type="email"]:focus:focus + label {
-  color: #49AB74;
+  color: black;
 }
 
 section.contact .formParent .half {
@@ -880,7 +880,7 @@ section.contact .formParent .half {
 section.contact input::-webkit-input-placeholder {
   font-size: 18px;
   line-height: 24px;
-  color: #59585F;
+  color: black;
   padding: 0;
   margin: 0;
 }
@@ -888,7 +888,7 @@ section.contact input::-webkit-input-placeholder {
 section.contact input:-ms-input-placeholder {
   font-size: 18px;
   line-height: 24px;
-  color: #59585F;
+  color: black;
   padding: 0;
   margin: 0;
 }
@@ -896,7 +896,7 @@ section.contact input:-ms-input-placeholder {
 section.contact input::-ms-input-placeholder {
   font-size: 18px;
   line-height: 24px;
-  color: #59585F;
+  color: black;
   padding: 0;
   margin: 0;
 }
@@ -904,7 +904,7 @@ section.contact input::-ms-input-placeholder {
 section.contact input::placeholder {
   font-size: 18px;
   line-height: 24px;
-  color: #59585F;
+  color: black;
   padding: 0;
   margin: 0;
 }
@@ -920,7 +920,7 @@ section.contact .buttonParent {
 }
 
 footer {
-  background-color: #59585F;
+  background-color: black;
   width: 100%;
 }
 
@@ -929,7 +929,7 @@ footer p {
   text-align: center;
   margin: 0;
   padding: 10px;
-  color: #EFEFF0;
+  color: white;
   font-weight: 400;
   letter-spacing: 0.4px;
 }
@@ -1051,10 +1051,10 @@ footer p {
     display: none;
   }
   nav ul li a.active {
-    color: #49AB74;
+    color: black;
   }
   nav ul li {
-    border-bottom: 1px solid #EFEFF0;
+    border-bottom: 1px solid white;
   }
   section.about .aboutParent div:nth-child(1) {
     width: auto;
