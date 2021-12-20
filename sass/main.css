@@ -13,6 +13,11 @@
   src: url("../Fonts/HamburgHand-Light.otf");
 }
 
+@font-face {
+  font-family: 'Right Grotesk Tight';
+  src: url("../Fonts/RightGrotesk-TightBlack.otf");
+}
+
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -287,7 +292,7 @@ ul {
 h2 {
   color: black;
   text-align: center;
-  font-family: 'Hamburg Hand Regular';
+  font-family: "Right Grotesk Tight";
   font-size: 30px;
   letter-spacing: 4px;
   margin: 0;
@@ -357,7 +362,7 @@ nav {
 }
 
 nav ul li {
-  font-family: 'Hamburg Hand Light';
+  font-family: "Right Grotesk Tight";
   color: white;
   margin: 25px 30px 25px 30px;
   font-size: 18px;

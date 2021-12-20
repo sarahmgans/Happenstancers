@@ -13,6 +13,11 @@
   src: url('../Fonts/HamburgHand-Light.otf');
 }
 
+@font-face {
+  font-family: 'Right Grotesk Tight';
+  src: url('../Fonts/RightGrotesk-TightBlack.otf')
+}
+
 @import 'variables';
 @import 'setup';
 @import 'global';
