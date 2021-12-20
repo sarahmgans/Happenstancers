@@ -381,7 +381,7 @@ nav ul li a:active::after {
   width: calc(100% - 8px);
   display: block;
   height: 2px;
-  background-color: black;
+  background-color: white;
   position: absolute;
   bottom: 2px;
 }
@@ -643,7 +643,7 @@ img {
 }
 
 section.about {
-  height: auto;
+  height: 100vh;
   background-color: white;
   padding-bottom: 84px;
 }
@@ -689,7 +689,7 @@ section.events p {
 }
 
 section.work {
-  height: auto;
+  height: 100vh;
   background-color: white;
   padding-bottom: 105px;
 }

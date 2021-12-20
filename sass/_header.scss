@@ -47,7 +47,7 @@ nav ul li a:active::after {
   width: calc(100% - 8px);
   display: block;
   height: 2px;
-  background-color: $darkColor;
+  background-color: $lightColor;
   position: absolute;
   bottom: 2px;
 }
