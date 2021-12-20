@@ -1,0 +1,47 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} 
+img {
+  display: inline-block;
+}
+.wrapper {
+  max-width: 1280px;
+  width: 90%;
+  margin: 0 auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  color: $darkColor;
+  text-align: center;
+  font-family: 'Hamburg Hand Regular';
+  font-size: 30px;
+  letter-spacing: 4px;
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  font-weight: 400;
+}
+p {
+  font-family: 'Source Sans Pro';
+  color: $darkColor;
+  font-size: 19px;
+  line-height: 1.5;
+}
+.bodyLine {
+  border-top: 2px solid $accentColor;
+  width: 70px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+

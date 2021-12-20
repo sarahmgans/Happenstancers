@@ -1,0 +1,126 @@
+header {
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  width: 100vw;
+}
+.headerParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.headerImg img {
+  width: 550px;
+}
+a {
+  text-decoration: none;
+  border: 2px solid transparent;
+  color: black;
+  transition: 0.3s all ease-out; 
+  padding-bottom: 3px;
+  display: block;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  height: 78px;
+}
+nav ul li {
+  font-family: 'Hamburg Hand Light';
+  color: $darkColor;
+  margin: 25px 30px 25px 30px;
+  font-size: 18px;
+  letter-spacing: 4px;
+  position: relative;
+}
+nav ul li a:focus{
+  outline: thin dotted;
+}
+nav ul li a:active,
+nav ul li a:hover {
+  outline: 0;
+}
+nav ul li a:hover::after, 
+nav ul li a.active::after,
+nav ul li a:active::after {
+  content: '';
+  width: calc(100% - 8px);
+  display: block;
+  height: 2px;
+  background-color: $lightColor;
+  position: absolute;
+  bottom: 2px;
+}
+header ul.top {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: fixed;
+  // background-color: $darkColor;
+  width: 100vw;
+  justify-content: center;
+  z-index: 1000;
+  white-space: no-wrap;
+}
+header ul.bottom {
+  width: 100vw;
+  // background-color: $darkColor;
+  position: fixed;
+  z-index: 1000;
+  list-style: none;
+}
+header i.fas {
+  color: black;
+  font-size: 55px;
+  transition: 0.3s;
+  margin-bottom: 30px;
+}
+img {
+  width: 500px;
+  height: auto;
+}
+.landingPicture {
+  margin: 0 auto;
+}
+.chev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide {
+	-webkit-animation: slide 3s infinite;
+	animation: slide 3s infinite;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    -webkit-transform: translate(0, -15px);
+    transform: translate(0, -15px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translate(0, 15px);
+    transform: translate(0, 15px);
+    opacity: 0;
+  }
+}
+
+@keyframes slide {
+  0% {
+    -webkit-transform: translate(0, -15px);
+    transform: translate(0, -15px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translate(0, 15px);
+    transform: translate(0, 15px);
+    opacity: 0;
+  }
+}
