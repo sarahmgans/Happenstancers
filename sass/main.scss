@@ -1,21 +1,21 @@
 @font-face {
-  font-family: 'Hamburg Hand Bold';
-  src: url('../Fonts/HamburgHand-Bold.otf');
+  font-family: 'Right Grotesk Narrow Light';
+  src: url('../Fonts/RightGrotesk-NarrowLight.otf')
 }
 
 @font-face {
-  font-family: 'Hamburg Hand Regular';
-  src: url('../Fonts/HamburgHand-Regular.otf');
-}
-
-@font-face {
-  font-family: 'Hamburg Hand Light';
-  src: url('../Fonts/HamburgHand-Light.otf');
-}
-
-@font-face {
-  font-family: 'Right Grotesk Tight';
+  font-family: 'Right Grotesk Tight Black';
   src: url('../Fonts/RightGrotesk-TightBlack.otf')
+}
+
+@font-face {
+  font-family: 'Pier Sans Light';
+  src: url('../Fonts/PierSans-Light.otf')
+}
+
+@font-face {
+  font-family: 'Pangram Regular';
+  src: url('../Fonts/Pangram-Regular.otf')
 }
 
 @import 'variables';

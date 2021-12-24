@@ -17,7 +17,7 @@ ul {
 h2 {
   color: $darkColor;
   text-align: center;
-  font-family: $mainFont;
+  font-family: $headerFont;
   font-size: 30px;
   letter-spacing: 4px;
   margin: 0;
@@ -27,7 +27,7 @@ h2 {
   text-transform: uppercase;
 }
 p {
-  font-family: 'Source Sans Pro';
+  font-family: $bodyFont;
   color: $darkColor;
   font-size: 19px;
   line-height: 1.5;
