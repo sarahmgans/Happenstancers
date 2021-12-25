@@ -2,19 +2,39 @@ header {
   height: 100vh;
   display: flex;
   width: 100vw;
+  background-color: $darkColor;
 }
-.headerParent {
+.headerTextParent {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-}
-.headerImg img {
-  width: 550px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 120px;
+  .headerText h1 {
+    font-family: $headerFont;
+    color: $lightColor;
+    text-transform: uppercase;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    line-height: 0.8;
+    justify-content: center;
+      .the {
+        font-size: 245px;
+      }
+      .happen {
+        font-size: 111px;
+      }
+      .stancers {
+        font-size: 86px
+      }
+  }
 }
 a {
   text-decoration: none;
   border: 2px solid transparent;
-  color: $lightColor;
+  color: $darkColor;
   transition: 0.3s all ease-out; 
   padding-bottom: 3px;
   display: block;
@@ -48,7 +68,7 @@ nav ul li a:active::after {
   width: calc(100% - 7px);
   display: block;
   height: 2px;
-  background-color: $lightColor;
+  background-color: $darkColor;
   position: absolute;
   bottom: 2px;
 }
@@ -58,7 +78,7 @@ header ul.top {
   padding: 0;
   display: flex;
   position: fixed;
-  background-color: $darkColor;
+  background-color: $lightColor;
   width: 100vw;
   justify-content: center;
   z-index: 1000;
@@ -66,7 +86,7 @@ header ul.top {
 }
 header ul.bottom {
   width: 100vw;
-  background-color: $darkColor;
+  background-color: $lightColor;
   position: fixed;
   z-index: 1000;
   list-style: none;

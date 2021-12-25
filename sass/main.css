@@ -322,9 +322,10 @@ header {
   display: -ms-flexbox;
   display: flex;
   width: 100vw;
+  background-color: black;
 }
 
-.headerParent {
+.headerTextParent {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -332,19 +333,50 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 120px;
 }
 
-.headerImg img {
-  width: 550px;
+.headerTextParent .headerText h1 {
+  font-family: "Right Grotesk Tight Black";
+  color: white;
+  text-transform: uppercase;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 0.8;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.headerTextParent .headerText h1 .the {
+  font-size: 245px;
+}
+
+.headerTextParent .headerText h1 .happen {
+  font-size: 111px;
+}
+
+.headerTextParent .headerText h1 .stancers {
+  font-size: 86px;
 }
 
 a {
   text-decoration: none;
   border: 2px solid transparent;
-  color: white;
+  color: black;
   -webkit-transition: 0.3s all ease-out;
   transition: 0.3s all ease-out;
   padding-bottom: 3px;
@@ -388,7 +420,7 @@ nav ul li a:active::after {
   width: calc(100% - 7px);
   display: block;
   height: 2px;
-  background-color: white;
+  background-color: black;
   position: absolute;
   bottom: 2px;
 }
@@ -401,7 +433,7 @@ header ul.top {
   display: -ms-flexbox;
   display: flex;
   position: fixed;
-  background-color: black;
+  background-color: white;
   width: 100vw;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -412,7 +444,7 @@ header ul.top {
 
 header ul.bottom {
   width: 100vw;
-  background-color: black;
+  background-color: white;
   position: fixed;
   z-index: 1000;
   list-style: none;
