@@ -34,7 +34,7 @@ header {
 a {
   text-decoration: none;
   border: 2px solid transparent;
-  color: $darkColor;
+  color: $lightColor;
   transition: 0.3s all ease-out; 
   padding-bottom: 3px;
   display: block;
@@ -68,7 +68,7 @@ nav ul li a:active::after {
   width: calc(100% - 7px);
   display: block;
   height: 2px;
-  background-color: $darkColor;
+  background-color: $lightColor;
   position: absolute;
   bottom: 2px;
 }
@@ -78,7 +78,7 @@ header ul.top {
   padding: 0;
   display: flex;
   position: fixed;
-  background-color: $lightColor;
+  background-color: $darkColor;
   width: 100vw;
   justify-content: center;
   z-index: 1000;

@@ -376,7 +376,7 @@ header {
 a {
   text-decoration: none;
   border: 2px solid transparent;
-  color: black;
+  color: white;
   -webkit-transition: 0.3s all ease-out;
   transition: 0.3s all ease-out;
   padding-bottom: 3px;
@@ -420,7 +420,7 @@ nav ul li a:active::after {
   width: calc(100% - 7px);
   display: block;
   height: 2px;
-  background-color: black;
+  background-color: white;
   position: absolute;
   bottom: 2px;
 }
@@ -433,7 +433,7 @@ header ul.top {
   display: -ms-flexbox;
   display: flex;
   position: fixed;
-  background-color: white;
+  background-color: black;
   width: 100vw;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
