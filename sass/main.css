@@ -797,6 +797,7 @@ section.contact .submit {
 
 section.contact .submit:hover, section.contact .submit:focus {
   background-color: black;
+  color: red;
 }
 
 section.contact .half input[type="text"],
@@ -937,6 +938,9 @@ footer p {
   section.contact .formParent {
     margin-top: 15px;
   }
+  section.contact form {
+    width: 90%;
+  }
   .hamburger-menu {
     display: block;
   }
@@ -983,9 +987,6 @@ footer p {
   }
   nav ul li {
     border-bottom: 1px solid white;
-  }
-  section.contact form {
-    width: 90%;
   }
 }
 

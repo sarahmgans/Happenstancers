@@ -68,7 +68,7 @@ nav ul li a:active::after {
   width: calc(100% - 7px);
   display: block;
   height: 2px;
-  background-color: red;
+  background-color: $accentColor;
   position: absolute;
   bottom: 2px;
 }

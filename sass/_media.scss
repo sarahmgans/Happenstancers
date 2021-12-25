@@ -48,6 +48,9 @@
   section.contact .formParent {
     margin-top: 15px;
   }
+  section.contact form {
+    width: 90%;
+  }
   .hamburger-menu {
     display: block;
     ul {
@@ -82,13 +85,10 @@
     display: none;
   }
   nav ul li a.active {
-    color: red;
+    color: $accentColor;
   }
   nav ul li {
     border-bottom: 1px solid $lightColor;
-  }
-  section.contact form {
-    width: 90%;
   }
 }
 
