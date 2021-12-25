@@ -22,6 +22,20 @@
 }
 
 @media(max-width: 860px) {
+  .headerTextParent {
+    padding-bottom: 60px;
+    .headerText h1 {
+      .the {
+        font-size: 245px;
+      }
+      .happen {
+        font-size: 111px;
+      }
+      .stancers {
+        font-size: 86px
+      }
+    }
+  }
   section.contact .buttonParent {
     margin-bottom: 30px;
   }

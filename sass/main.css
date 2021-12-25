@@ -340,7 +340,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-bottom: 120px;
+  padding-bottom: 145px;
 }
 
 .headerTextParent .headerText h1 {
@@ -362,15 +362,15 @@ header {
 }
 
 .headerTextParent .headerText h1 .the {
-  font-size: 245px;
+  font-size: 290px;
 }
 
 .headerTextParent .headerText h1 .happen {
-  font-size: 111px;
+  font-size: 132px;
 }
 
 .headerTextParent .headerText h1 .stancers {
-  font-size: 86px;
+  font-size: 102px;
 }
 
 a {
@@ -420,7 +420,7 @@ nav ul li a:active::after {
   width: calc(100% - 7px);
   display: block;
   height: 2px;
-  background-color: white;
+  background-color: red;
   position: absolute;
   bottom: 2px;
 }
@@ -915,6 +915,18 @@ footer p {
 }
 
 @media (max-width: 860px) {
+  .headerTextParent {
+    padding-bottom: 60px;
+  }
+  .headerTextParent .headerText h1 .the {
+    font-size: 245px;
+  }
+  .headerTextParent .headerText h1 .happen {
+    font-size: 111px;
+  }
+  .headerTextParent .headerText h1 .stancers {
+    font-size: 86px;
+  }
   section.contact .buttonParent {
     margin-bottom: 30px;
   }

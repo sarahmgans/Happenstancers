@@ -10,7 +10,7 @@ header {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  padding-bottom: 120px;
+  padding-bottom: 145px;
   .headerText h1 {
     font-family: $headerFont;
     color: $lightColor;
@@ -21,13 +21,13 @@ header {
     line-height: 0.8;
     justify-content: center;
       .the {
-        font-size: 245px;
+        font-size: 290px;
       }
       .happen {
-        font-size: 111px;
+        font-size: 132px;
       }
       .stancers {
-        font-size: 86px
+        font-size: 102px
       }
   }
 }
@@ -68,7 +68,7 @@ nav ul li a:active::after {
   width: calc(100% - 7px);
   display: block;
   height: 2px;
-  background-color: $lightColor;
+  background-color: red;
   position: absolute;
   bottom: 2px;
 }
