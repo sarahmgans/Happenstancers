@@ -444,10 +444,14 @@ header ul.top {
 
 header ul.bottom {
   width: 100vw;
-  background-color: white;
+  background-color: black;
   position: fixed;
   z-index: 1000;
   list-style: none;
+}
+
+header ul.bottom a {
+  color: white;
 }
 
 header i.fas {

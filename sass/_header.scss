@@ -86,10 +86,13 @@ header ul.top {
 }
 header ul.bottom {
   width: 100vw;
-  background-color: $lightColor;
+  background-color: $darkColor;
   position: fixed;
   z-index: 1000;
   list-style: none;
+  a {
+    color: $lightColor
+  }
 }
 header i.fas {
   color: black;
