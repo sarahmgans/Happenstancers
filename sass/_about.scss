@@ -1,7 +1,11 @@
 section.about{
   height: 100vh;
+  width: 700px;
+  margin: 0 auto;
   .bodyLine {
     margin-bottom: 100px;
   }
+  .italic {
+    font-style: italic;
+  }
 }
-

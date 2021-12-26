@@ -18,16 +18,19 @@ header {
     padding: 0;
     display: flex;
     flex-direction: column;
-    line-height: 0.8;
+    line-height: 0.77;
     justify-content: center;
       .the {
-        font-size: 290px;
+        font-size: 322px;
       }
       .happen {
-        font-size: 132px;
+        font-size: 133.5px;
+        padding-left: 26px;
       }
       .stancers {
-        font-size: 102px
+        font-size: 85px;
+        padding-left: 26px;
+        letter-spacing: 6.9px;
       }
   }
 }
@@ -80,7 +83,7 @@ header ul.top {
   position: fixed;
   background-color: $darkColor;
   width: 100vw;
-  justify-content: center;
+  justify-content: space-evenly;
   z-index: 1000;
   white-space: no-wrap;
 }
