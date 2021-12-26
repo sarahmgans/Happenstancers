@@ -1,11 +1,23 @@
 section.about{
-  height: 100vh;
+  height: auto;
   width: 700px;
   margin: 0 auto;
   .bodyLine {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
   }
   .italic {
     font-style: italic;
+  }
+  a.bio {
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: inline;
+    font-family: $bodyFont;
+    color: $darkColor;
+    text-transform: none;
+    transition: 0.3s;
+    &:hover {
+      color: $accentColor;
+    }
   }
 }

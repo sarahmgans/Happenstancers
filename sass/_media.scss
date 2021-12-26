@@ -29,23 +29,20 @@
         font-size: 245px;
       }
       .happen {
-        font-size: 101px;
-        padding-left: 21px;
+        font-size: 102.6px;
+        padding-left: 20.4px;
       }
       .stancers {
-        font-size: 60px;
-        padding-left: 21px;
+        font-size: 62px;
+        padding-left: 20.4px;
       }
     }
+  }
+  section.about {
+    width: 90vw;
   }
   section.contact .buttonParent {
     margin-bottom: 30px;
-  }
-  section.about,
-  section.work {
-    .bodyLine {
-      margin-bottom: 75px;
-    }
   }
   section.contact .formParent {
     margin-top: 15px;
