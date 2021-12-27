@@ -310,9 +310,9 @@ h2 {
 p {
   font-family: "Radio Grotesk Regular";
   color: black;
-  font-size: 19px;
+  font-size: 18px;
   line-height: 1.5;
-  text-align: justify;
+  text-align: center;
   margin-top: 10px;
   margin-bottom: 15px;
 }
@@ -673,6 +673,10 @@ section.about .italic {
   font-style: italic;
 }
 
+section.about .bioBody {
+  margin-top: 55px;
+}
+
 section.about a.bio {
   font-weight: bold;
   letter-spacing: 1px;
@@ -923,7 +927,7 @@ footer p {
 
 @media (max-width: 860px) {
   .headerTextParent {
-    padding-bottom: 60px;
+    padding-bottom: 80px;
   }
   section.about {
     width: 90vw;
