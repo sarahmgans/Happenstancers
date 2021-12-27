@@ -872,8 +872,6 @@ footer p {
   margin: 0;
   padding: 10px;
   color: white;
-  font-weight: 400;
-  letter-spacing: 1px;
 }
 
 @media (max-width: 1160px) {
@@ -902,10 +900,10 @@ footer p {
 
 @media (max-width: 860px) {
   .headerTextParent {
-    padding-bottom: 80px;
+    padding-bottom: 0;
   }
   section.about {
-    width: 90vw;
+    width: 90%;
   }
   section.contact .formParent {
     margin-top: 15px;
@@ -965,21 +963,12 @@ footer p {
   }
 }
 
-@media (max-width: 610px) {
-  section.contact form {
-    width: 90%;
-  }
-}
-
 @media (max-width: 500px) {
+  .headerTextParent {
+    padding-bottom: 80px;
+  }
   .headerTextParent .headerText img {
     width: 250px;
-  }
-}
-
-@media (max-width: 430px) {
-  section.contact form {
-    width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */
