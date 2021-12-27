@@ -310,8 +310,9 @@ h2 {
 p {
   font-family: "Radio Grotesk Regular";
   color: black;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 1px;
   margin-top: 10px;
   margin-bottom: 15px;
 }
@@ -678,7 +679,7 @@ section.about .bioBody {
 
 section.about a.bio {
   font-weight: bold;
-  letter-spacing: 1px;
+  letter-spacing: 1.75px;
   display: inline;
   font-family: "Radio Grotesk Regular";
   color: black;
