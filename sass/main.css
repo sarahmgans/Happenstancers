@@ -437,63 +437,6 @@ header ul.bottom a {
   color: white;
 }
 
-header i.fas {
-  color: black;
-  font-size: 55px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  margin-bottom: 30px;
-}
-
-.chev {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.slide {
-  -webkit-animation: slide 3s infinite;
-  animation: slide 3s infinite;
-}
-
-@-webkit-keyframes slide {
-  0% {
-    -webkit-transform: translate(0, -15px);
-    transform: translate(0, -15px);
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: translate(0, 15px);
-    transform: translate(0, 15px);
-    opacity: 0;
-  }
-}
-
-@keyframes slide {
-  0% {
-    -webkit-transform: translate(0, -15px);
-    transform: translate(0, -15px);
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: translate(0, 15px);
-    transform: translate(0, 15px);
-    opacity: 0;
-  }
-}
-
 .hamburger-menu {
   display: none;
 }
@@ -791,9 +734,9 @@ section.contact .submit {
   margin: 75px auto 75px auto;
   background-color: black;
   padding: 13px 40px;
-  font-family: "Right Grotesk Tight Black";
+  font-size: 22px;
   letter-spacing: 3px;
-  font-size: 20px;
+  font-family: "Right Grotesk Tight Black";
   color: white;
   text-transform: uppercase;
   -webkit-transition: 0.3s;
