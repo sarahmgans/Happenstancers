@@ -791,15 +791,14 @@ section.contact .submit {
   margin: 50px auto 50px auto;
   background-color: black;
   padding: 13px 40px;
-  border-radius: 20px;
   font-family: "Right Grotesk Tight Black";
-  font-size: 18px;
+  font-size: 25px;
   color: white;
   letter-spacing: 3px;
   text-transform: uppercase;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  border: none;
+  border: 0;
   text-align: center;
   cursor: pointer;
 }
@@ -883,7 +882,45 @@ section.contact .buttonParent {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 55px;
+}
+
+section.contact .email a {
+  font-family: "Radio Grotesk Regular";
+  color: black;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: none;
+  text-align: center;
+}
+
+section.contact .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.contact .social a {
+  letter-spacing: normal;
+  border: none;
+}
+
+section.contact .social a i {
+  font-size: 40px;
+  color: black;
+  padding: 0px 15px 20px 15px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+section.contact .social a i:hover {
+  color: #f22202;
 }
 
 footer {
@@ -931,9 +968,6 @@ footer p {
   }
   section.about {
     width: 90vw;
-  }
-  section.contact .buttonParent {
-    margin-bottom: 30px;
   }
   section.contact .formParent {
     margin-top: 15px;

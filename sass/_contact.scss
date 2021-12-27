@@ -45,14 +45,13 @@ section.contact {
     margin: 50px auto 50px auto;
     background-color: $darkColor;
     padding: 13px 40px;
-    border-radius: 20px;
     font-family: $headerFont;
-    font-size: 18px;
+    font-size: 25px;
     color: $lightColor;
     letter-spacing: 3px;
     text-transform: uppercase;
     transition: 0.3s;
-    border: none;
+    border: 0;
     text-align: center;
     cursor: pointer;
     &:hover,
@@ -98,6 +97,31 @@ section.contact {
   .buttonParent {
     display: flex;
     align-items: center;
-    margin-bottom: 55px;
+  }
+  .email a {
+    font-family: $bodyFont;
+    color: $darkColor;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: none;
+    text-align: center;
+  }
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    a {
+      letter-spacing: normal;
+      border: none;
+      i {
+        font-size: 40px;
+        color: $darkColor;
+        padding: 0px 15px 20px 15px;
+        transition: 0.3s;
+        &:hover {
+          color: $accentColor;
+        }
+      }
+    }
   }
 }
