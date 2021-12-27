@@ -23,22 +23,7 @@
 
 @media(max-width: 860px) {
   .headerTextParent {
-    padding-bottom: 60px;
-    .headerText h1 {
-      line-height: 0.8;
-      .the {
-        font-size: 245px;
-      }
-      .happen {
-        font-size: 101.3px;
-        padding-left: 20.4px;
-      }
-      .stancers {
-        font-size: 62px;
-        padding-left: 20.4px;
-        letter-spacing: 6.3px;
-      }
-    }
+    padding-bottom: 30px;
   }
   section.about {
     width: 90vw;
@@ -96,6 +81,12 @@
 @media(max-width: 610px) {
   section.contact form {
     width: 90%;
+  }
+}
+
+@media(max-width: 500px) {
+  .headerTextParent .headerText img {
+    width: 250px;
   }
 }
 

@@ -351,37 +351,9 @@ header {
   padding-bottom: 145px;
 }
 
-.headerTextParent .headerText h1 {
-  font-family: "Right Grotesk Tight Black";
-  color: white;
-  text-transform: uppercase;
-  padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  line-height: 0.77;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.headerTextParent .headerText h1 .the {
-  font-size: 322px;
-}
-
-.headerTextParent .headerText h1 .happen {
-  font-size: 133.5px;
-  padding-left: 26.4px;
-}
-
-.headerTextParent .headerText h1 .stancers {
-  font-size: 85px;
-  padding-left: 26.4px;
-  letter-spacing: 6.9px;
+.headerTextParent .headerText img {
+  width: 350px;
+  height: auto;
 }
 
 a {
@@ -951,22 +923,7 @@ footer p {
 
 @media (max-width: 860px) {
   .headerTextParent {
-    padding-bottom: 60px;
-  }
-  .headerTextParent .headerText h1 {
-    line-height: 0.8;
-  }
-  .headerTextParent .headerText h1 .the {
-    font-size: 245px;
-  }
-  .headerTextParent .headerText h1 .happen {
-    font-size: 101.3px;
-    padding-left: 20.4px;
-  }
-  .headerTextParent .headerText h1 .stancers {
-    font-size: 62px;
-    padding-left: 20.4px;
-    letter-spacing: 6.3px;
+    padding-bottom: 30px;
   }
   section.about {
     width: 90vw;
@@ -1032,6 +989,12 @@ footer p {
 @media (max-width: 610px) {
   section.contact form {
     width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  .headerTextParent .headerText img {
+    width: 250px;
   }
 }
 
