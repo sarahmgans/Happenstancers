@@ -1,0 +1,12 @@
+header.headerBio {
+  background-color: $lightColor;
+  height: auto;
+}
+.bio {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 120px;
+}
