@@ -19,7 +19,8 @@ section.about{
     color: $darkColor;
     text-transform: none;
     transition: 0.3s;
-    &:hover {
+    &:hover,
+    &:active {
       color: $accentColor;
     }
   }

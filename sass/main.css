@@ -630,7 +630,7 @@ section.about a.bio {
   transition: 0.3s;
 }
 
-section.about a.bio:hover {
+section.about a.bio:hover, section.about a.bio:active {
   color: #f22202;
 }
 
@@ -964,20 +964,6 @@ header.headerBio {
 }
 
 .bioIndividual {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   height: 100vh;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-bottom: 120px;
 }
 /*# sourceMappingURL=main.css.map */
