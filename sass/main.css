@@ -963,7 +963,7 @@ header.headerBio {
   height: auto;
 }
 
-.bio {
+.bioIndividual {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
