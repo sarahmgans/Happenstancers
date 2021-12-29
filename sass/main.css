@@ -972,6 +972,7 @@ footer p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: fixed;
 }
 
 .personalBio header .bioNav {
