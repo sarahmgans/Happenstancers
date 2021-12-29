@@ -990,6 +990,9 @@ footer p {
   text-align: center;
   margin: 0;
   color: white;
+  font-family: "Right Grotesk Tight Black";
+  font-size: 22px;
+  letter-spacing: 1.5px;
 }
 
 .personalBio header .bioNav p a {
@@ -1003,6 +1006,8 @@ footer p {
 }
 
 .personalBio .mainBio {
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
+  margin-bottom: 100px;
 }
 /*# sourceMappingURL=main.css.map */
