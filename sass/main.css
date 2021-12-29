@@ -628,6 +628,7 @@ section.about a.bio {
   text-transform: none;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  border: none;
 }
 
 section.about a.bio:hover, section.about a.bio:active {
