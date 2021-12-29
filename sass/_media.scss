@@ -21,6 +21,13 @@
   section.contact .submit {
     margin: 50px auto 50px auto;
   }
+  .personalBio {
+    header {
+      .wrapper.bioNav {
+        height: 42px;
+      }
+    }
+  }
   .hamburger-menu {
     display: block;
     ul {

@@ -900,6 +900,9 @@ footer p {
   section.contact .submit {
     margin: 50px auto 50px auto;
   }
+  .personalBio header .wrapper.bioNav {
+    height: 42px;
+  }
   .hamburger-menu {
     display: block;
   }
@@ -958,12 +961,48 @@ footer p {
   }
 }
 
-header.headerBio {
-  background-color: white;
+.personalBio header {
+  background-color: black;
+  width: 100%;
   height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.bioIndividual {
+.personalBio header .bioNav {
+  height: 78px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.personalBio header .bioNav p {
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+
+.personalBio header .bioNav p a {
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.personalBio header .bioNav p a:hover {
+  color: #f22202;
+}
+
+.personalBio .mainBio {
   height: 100vh;
 }
 /*# sourceMappingURL=main.css.map */

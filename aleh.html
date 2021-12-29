@@ -11,46 +11,19 @@
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/b92fc38b7b.js" crossorigin="anonymous"></script>
 </head>
-<body>
-  <!-- Header -->
-  <header class="headerBio">
-    <div class="wrapper">
-      <!-- Desktop Nav -->
-      <nav class="stroke">
-          <ul class="nav top">
-              <li><a href="index.html">Home</a></li>
-          </ul>
-      </nav>
-      <!-- Hamburger Button -->
-      <div class="hamburger-menu">
-        <button class="hamburger hamburger--collapse" type="button"><span class="sr-only">Dropdown Menu</span>
-          <span class="hamburger-box" tabindex="0">
-            <span class="hamburger-inner"></span>
-          </span>
-        </button>
-        <!-- Mobile Nav -->
-        <nav>
-          <ul class="nav bottom">
-            <li><a href="index.html" class="home">Home</a></li>
-          </ul>
-        </nav>
-      </div>
-      <!-- Header Text -->
-      <div class="bioIndividual" data-aos="fade-up" data-aos-duration="1000">
-      <h2>Aleh Remezau</h2>
-      <div class="bodyLine"></div>
+<body class="personalBio">
+  <header>
+    <div class="wrapper bioNav">
+      <p><a href="index.html" class="home">Back to home</a></p>
     </div>
   </header>
     <!-- Main Section -->
-  <main>
+  <main class="mainBio wrapper">
     <!-- About Section -->
-    <section class="about" id="about">
-      <div class="wrapper" data-aos="fade-up" data-aos-duration="1000">
-      
-      <div class="aboutParent">
-        <!-- Paragraph About -->
-    	<div>
-				<p></p>
+    <section class="about wrapper" id="about">
+      <div class="bioIndividual" data-aos="fade-up" data-aos-duration="1000">
+				<h2>Aleh Remezau</h2>
+				<div class="bodyLine"></div>
       </div>
     </section>
   </main>
@@ -68,6 +41,5 @@ AOS.init({
   disable: 'mobile'
 });
 </script>
-
 </body>
 </html>

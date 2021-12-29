@@ -1,7 +1,30 @@
-header.headerBio {
-  background-color: $lightColor;
-  height: auto;
-}
-.bioIndividual {
-  height: 100vh;
+.personalBio {
+	header {
+		background-color: $darkColor;
+		width: 100%;
+		height: auto;
+		display: flex;
+		align-items: center;
+		.bioNav {
+			height: 78px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			p {
+				text-align: center;
+				margin: 0;
+				color: $lightColor;
+				a {
+					color: $lightColor;
+					transition: 0.3s;
+					&:hover {
+						color: $accentColor;
+					}
+				}
+			}
+		}
+	}
+	.mainBio {
+		height: 100vh;
+	}
 }
