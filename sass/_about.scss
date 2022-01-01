@@ -19,6 +19,7 @@ section.about{
     color: $darkColor;
     text-transform: none;
     transition: 0.3s;
+    border: 1px solid transparent;
     border-bottom: 1px solid $darkColor;
     padding-bottom: 0px;
     &:hover,
