@@ -13,19 +13,16 @@ section.about{
   }
   a.bio {
     font-weight: bold;
-    letter-spacing: 0.5px;
+    letter-spacing: revert;
     display: inline;
     font-family: $bodyFont;
     color: $darkColor;
     text-transform: none;
     transition: 0.3s;
-    border: 1px solid transparent;
-    border-bottom: 1px solid $darkColor;
-    padding-bottom: 0px;
+    text-decoration: underline;
     &:hover,
     &:active {
       color: $accentColor;
-      border-bottom: 1px solid $accentColor;
     }
   }
 }

@@ -603,21 +603,18 @@ section.about .bioBody {
 
 section.about a.bio {
   font-weight: bold;
-  letter-spacing: 0.5px;
+  letter-spacing: revert;
   display: inline;
   font-family: "Pangram Regular";
   color: black;
   text-transform: none;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  border: 1px solid transparent;
-  border-bottom: 1px solid black;
-  padding-bottom: 0px;
+  text-decoration: underline;
 }
 
 section.about a.bio:hover, section.about a.bio:active {
   color: #f22202;
-  border-bottom: 1px solid #f22202;
 }
 
 section.events {
