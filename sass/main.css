@@ -1,26 +1,11 @@
 @font-face {
-  font-family: 'Right Grotesk Narrow Light';
-  src: url("../Fonts/RightGrotesk-NarrowLight.otf");
-}
-
-@font-face {
   font-family: 'Right Grotesk Tight Black';
   src: url("../Fonts/RightGrotesk-TightBlack.otf");
 }
 
 @font-face {
-  font-family: 'Pier Sans Light';
-  src: url("../Fonts/PierSans-Light.otf");
-}
-
-@font-face {
   font-family: 'Pangram Regular';
   src: url("../Fonts/Pangram-Regular.otf");
-}
-
-@font-face {
-  font-family: 'Radio Grotesk Regular';
-  src: url("../Fonts/RadioGrotesk-Regular.otf");
 }
 
 html {
@@ -303,7 +288,6 @@ h2 {
   margin: 0;
   padding-top: 100px;
   padding-bottom: 50px;
-  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -312,8 +296,6 @@ p {
   color: black;
   font-size: 16px;
   line-height: 1.5;
-  margin-top: 10px;
-  margin-bottom: 15px;
 }
 
 .bodyLine {
@@ -628,11 +610,13 @@ section.about a.bio {
   text-transform: none;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  border: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 0px;
 }
 
 section.about a.bio:hover, section.about a.bio:active {
   color: #f22202;
+  border-bottom: 1px solid #f22202;
 }
 
 section.events {

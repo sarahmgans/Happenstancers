@@ -19,10 +19,12 @@ section.about{
     color: $darkColor;
     text-transform: none;
     transition: 0.3s;
-    border: none;
+    border-bottom: 1px solid $darkColor;
+    padding-bottom: 0px;
     &:hover,
     &:active {
       color: $accentColor;
+      border-bottom: 1px solid $accentColor;
     }
   }
 }
