@@ -617,6 +617,10 @@ section.about a.bio:hover, section.about a.bio:active {
   color: #f22202;
 }
 
+section.about .bioNames {
+  font-weight: bold;
+}
+
 section.events {
   height: 100vh;
 }
@@ -631,6 +635,11 @@ section.work {
 
 section.work .bodyLine {
   margin-bottom: 100px;
+}
+
+section.work p {
+  text-align: center;
+  font-size: 20px;
 }
 
 section.contact {
