@@ -890,7 +890,8 @@ footer p {
   .headerTextParent {
     padding-bottom: 0;
   }
-  section.about {
+  section.about,
+  section.events {
     width: 90%;
   }
   .formParent {
