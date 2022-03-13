@@ -1,7 +1,19 @@
 section.events{
-  height: 100vh;
-  .bodyLine {
-    margin-bottom: 100px;
+  height: 100%;
+  width: 700px;
+  margin: 0 auto;
+  p {
+    text-align: center;
+  }
+  p.music {
+    font-style: italic;
+  }
+  p.concertInfo {
+    font-weight: bold;
+  }
+  ul {
+    margin-top: 40px;
+    list-style: none;
   }
 }
 

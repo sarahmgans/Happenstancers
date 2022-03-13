@@ -28,7 +28,7 @@ $(document).ready(function () {
   // Scrolling for the fixed nav
   // From https://codepen.io/yuki-san/pen/eJqLNO
 
-  let section = $('header#home, section#about, section#work, section#events, section#contact')
+  let section = $('header#home, section#about, section#events, section#work, section#contact')
   let nav = $('nav')
 
   $(window).on('scroll', function () {

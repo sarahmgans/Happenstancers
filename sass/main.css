@@ -291,6 +291,18 @@ h2 {
   text-transform: uppercase;
 }
 
+h3 {
+  color: black;
+  text-align: center;
+  font-family: "Right Grotesk Tight Black";
+  font-size: 50px;
+  letter-spacing: 3px;
+  margin: 0;
+  padding-top: 0px;
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+
 p {
   font-family: "Pangram Regular";
   color: black;
@@ -303,6 +315,7 @@ p {
   width: 70px;
   border-radius: 20px;
   margin: 0 auto;
+  margin-bottom: 60px;
 }
 
 header {
@@ -589,10 +602,6 @@ section.about {
   margin: 0 auto;
 }
 
-section.about .bodyLine {
-  margin-bottom: 60px;
-}
-
 section.about .italic {
   font-style: italic;
 }
@@ -622,19 +631,30 @@ section.about .bioNames {
 }
 
 section.events {
-  height: 100vh;
+  height: 100%;
+  width: 700px;
+  margin: 0 auto;
 }
 
-section.events .bodyLine {
-  margin-bottom: 100px;
+section.events p {
+  text-align: center;
+}
+
+section.events p.music {
+  font-style: italic;
+}
+
+section.events p.concertInfo {
+  font-weight: bold;
+}
+
+section.events ul {
+  margin-top: 40px;
+  list-style: none;
 }
 
 section.work {
   height: 100vh;
-}
-
-section.work .bodyLine {
-  margin-bottom: 100px;
 }
 
 section.work p {
