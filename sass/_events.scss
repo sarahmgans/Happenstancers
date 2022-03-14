@@ -15,5 +15,31 @@ section.events{
     margin-top: 40px;
     list-style: none;
   }
+  button { 
+    background-color: $darkColor;
+    border: none;
+    a {
+      background-color: $darkColor;
+      padding: 13px 40px;
+      font-size: 22px;
+      letter-spacing: 3px;
+      font-family: $headerFont;
+      color: $lightColor;
+      text-transform: uppercase;
+      transition: 0.3s;
+      border: 0px;
+      text-align: center;
+      cursor: pointer;
+      &:hover,
+      &:focus {
+        background-color: $darkColor;
+        color: $accentColor;
+      }
+    }
+  }
+  .buttonParent {
+    display: flex;
+    align-items: center;
+  }
 }
 

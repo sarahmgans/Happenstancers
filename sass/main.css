@@ -653,6 +653,40 @@ section.events ul {
   list-style: none;
 }
 
+section.events button {
+  background-color: black;
+  border: none;
+}
+
+section.events button a {
+  background-color: black;
+  padding: 13px 40px;
+  font-size: 22px;
+  letter-spacing: 3px;
+  font-family: "Right Grotesk Tight Black";
+  color: white;
+  text-transform: uppercase;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: 0px;
+  text-align: center;
+  cursor: pointer;
+}
+
+section.events button a:hover, section.events button a:focus {
+  background-color: black;
+  color: #f22202;
+}
+
+section.events .buttonParent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 section.work {
   height: 100vh;
 }
@@ -910,7 +944,8 @@ footer p {
     width: 90%;
     padding-top: 0;
   }
-  section.contact .submit {
+  section.contact .submit,
+  section.events .buyTickets {
     margin: 50px auto 50px auto;
   }
   .personalBio header .wrapper.bioNav {
