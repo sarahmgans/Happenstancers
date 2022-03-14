@@ -948,7 +948,7 @@ footer p {
   section.contact .submit {
     margin: 50px auto 50px auto;
   }
-  section.events .buyTickets {
+  section.events button {
     margin: 50px auto 0px auto;
   }
   .personalBio header .wrapper.bioNav {
