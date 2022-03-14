@@ -18,6 +18,7 @@ section.events{
   button { 
     background-color: $darkColor;
     border: none;
+    margin-top: 65px;
     a {
       background-color: $darkColor;
       padding: 13px 40px;
@@ -40,7 +41,6 @@ section.events{
   .buttonParent {
     display: flex;
     justify-content: center;
-    margin-top: 65px;
   }
 }
 

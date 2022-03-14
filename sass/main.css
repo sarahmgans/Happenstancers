@@ -656,6 +656,7 @@ section.events ul {
 section.events button {
   background-color: black;
   border: none;
+  margin-top: 65px;
 }
 
 section.events button a {
@@ -685,7 +686,6 @@ section.events .buttonParent {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 65px;
 }
 
 section.work {
