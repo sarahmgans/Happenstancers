@@ -646,7 +646,7 @@ section.events .eventText {
 }
 
 section.events .eventText img {
-  width: 350px;
+  width: 100%;
   height: auto;
 }
 
@@ -1024,9 +1024,6 @@ footer p {
   }
   .headerTextParent .headerText img {
     width: 250px;
-  }
-  section.events .eventText img {
-    width: 300px;
   }
 }
 
