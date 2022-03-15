@@ -642,6 +642,7 @@ section.events p {
 
 section.events p.music {
   font-style: italic;
+  padding: 30px;
 }
 
 section.events p.concertInfo {
