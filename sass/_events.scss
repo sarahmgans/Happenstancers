@@ -2,6 +2,14 @@ section.events{
   height: 100%;
   width: 700px;
   margin: 0 auto;
+  .eventText {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 350px;
+      height: auto;
+    }
+  }
   p {
     text-align: center;
   }

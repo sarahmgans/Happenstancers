@@ -636,6 +636,20 @@ section.events {
   margin: 0 auto;
 }
 
+section.events .eventText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.events .eventText img {
+  width: 350px;
+  height: auto;
+}
+
 section.events p {
   text-align: center;
 }
@@ -1009,6 +1023,9 @@ footer p {
     padding-bottom: 80px;
   }
   .headerTextParent .headerText img {
+    width: 250px;
+  }
+  section.events .eventText img {
     width: 250px;
   }
 }
